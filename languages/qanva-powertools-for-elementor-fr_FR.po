@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qanva Powertools for Elementor\n"
+"POT-Creation-Date: 2022-09-16 17:22+0200\n"
+"PO-Revision-Date: 2022-09-16 17:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: qanva-powertools-for-elementor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: controls/powertoolcontrols.php:30
+msgid "Widgets"
+msgstr "Widgets"
+
+#: controls/powertoolcontrols.php:38
+msgid "Remove widget names"
+msgstr "Supprimer les noms des widgets"
+
+#: controls/powertoolcontrols.php:39
+msgid "Remove widget names to save space."
+msgstr "Supprimez les noms des widgets pour gagner de l'espace."
+
+#: controls/powertoolcontrols.php:42 controls/powertoolcontrols.php:57
+#: controls/powertoolcontrols.php:84
+msgid "Yes"
+msgstr "Oui"
+
+#: controls/powertoolcontrols.php:43 controls/powertoolcontrols.php:58
+#: controls/powertoolcontrols.php:85
+msgid "No"
+msgstr "Non"
+
+#: controls/powertoolcontrols.php:53
+msgid "Tooltip widget names"
+msgstr "Noms des widgets d'info-bulles"
+
+#: controls/powertoolcontrols.php:54
+msgid "Show widget names as tooltip."
+msgstr "Afficher les noms des widgets comme infobulle."
+
+#: controls/powertoolcontrols.php:73
+msgid "Widget column count"
+msgstr "Nombre de colonnes de widgets"
+
+#: controls/powertoolcontrols.php:80
+msgid "Remove WP widgets"
+msgstr "Supprimer les widgets WP"
+
+#: controls/powertoolcontrols.php:81
+msgid "Remove the WordPress widgets from Elementor editor."
+msgstr "Supprimez les widgets WordPress de l'éditeur Elementor."
+
+#: controls/powertoolcontrols.php:112
+msgid "Set Page Permalink"
+msgstr "Définir le Permalink de la page"
+
+#: controls/powertoolcontrols.php:123 controls/powertoolcontrols.php:151
+#: qanva-powertools-for-elementor.php:346 settings.php:236
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: controls/powertoolcontrols.php:131
+msgid "Save your favorites"
+msgstr "Sauvegardez vos favoris"
+
+#: controls/powertoolcontrols.php:140
+msgid "Your Email"
+msgstr "Votre Email"
+
+#: controls/powertoolcontrols.php:142
+msgid "Your email"
+msgstr "Votre email"
+
+#: controls/powertoolcontrols.php:149
+msgid "Letters and Numbers only, min 8 characters"
+msgstr "Lettres et chiffres uniquement, 8 caractères minimum"
+
+#: controls/powertoolcontrols.php:151
+msgid "Your password"
+msgstr "Votre mot de passe"
+
+#: controls/powertoolcontrols.php:151
+msgid "Please use a password"
+msgstr "Veuillez utiliser un mot de passe"
+
+#: controls/powertoolcontrols.php:151
+msgid "Get Favorites"
+msgstr "Obtenir des favoris"
+
+#: controls/powertoolcontrols.php:159
+msgid "Hint"
+msgstr "Indice"
+
+#: controls/powertoolcontrols.php:170
+msgid ""
+"Using CTRL or ALT or CMD + q opens a panel where you can clone a page or "
+"open a page quickly."
+msgstr ""
+"L'utilisation de CTRL ou ALT ou CMD + q ouvre un panneau où vous pouvez "
+"cloner une page ou ouvrir une page rapidement."
+
+#. Plugin Name of the plugin/theme
+#: qanva-powertools-for-elementor.php:33
+msgid "Qanva Powertools for Elementor"
+msgstr "Qanva Powertools pour Elementor"
+
+#. Description of the plugin/theme
+#: qanva-powertools-for-elementor.php:34
+msgid "Add special settings, cloning of pages,posts/templates in Elementor"
+msgstr ""
+"Ajouter des paramètres spéciaux, cloner des pages, des messages ou des "
+"modèles dans Elementor"
+
+#: qanva-powertools-for-elementor.php:69 settings.php:217
+msgid "Settings"
+msgstr "Paramètres"
+
+#: qanva-powertools-for-elementor.php:105
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "\"%1$s\" nécessite \"%2$s\" pour être installé et activé."
+
+#: qanva-powertools-for-elementor.php:105
+#: qanva-powertools-for-elementor.php:111
+#: qanva-powertools-for-elementor.php:117
+msgid "POWER SETTINGS for Elementor"
+msgstr "POWER SETTINGS pour Elementor"
+
+#: qanva-powertools-for-elementor.php:105
+msgid "Elementor"
+msgstr "Elementor"
+
+#: qanva-powertools-for-elementor.php:111
+#, php-format
+msgid "\"%1$s\" requires min version \"%2$s\" of Elementor to be installed."
+msgstr ""
+"\"%1$s\" nécessite l'installation de la version minimale \"%2$s\" "
+"d'Elementor."
+
+#: qanva-powertools-for-elementor.php:117
+#, php-format
+msgid "\"%1$s\" requires min PHP version \"%2$s\" running."
+msgstr "« %1$s » nécessite au moins PHP version « %2$s » actif."
+
+#: qanva-powertools-for-elementor.php:287
+#: qanva-powertools-for-elementor.php:332
+msgid "Clone and open"
+msgstr "Cloner et ouvrir"
+
+#: qanva-powertools-for-elementor.php:298
+#: qanva-powertools-for-elementor.php:301
+#: qanva-powertools-for-elementor.php:346
+msgid "Select to open"
+msgstr "Sélectionnez pour ouvrir"
+
+#: qanva-powertools-for-elementor.php:305
+msgid "New Window"
+msgstr "Nouvelle fenêtre"
+
+#: qanva-powertools-for-elementor.php:306
+msgid "Same Window"
+msgstr "Même fenêtre"
+
+#: qanva-powertools-for-elementor.php:307
+msgid "Select to clone"
+msgstr "Sélectionner pour cloner"
+
+#: qanva-powertools-for-elementor.php:312
+msgid "Set new name of clone (optional)"
+msgstr "Définir le nouveau nom du clone (facultatif)"
+
+#: qanva-powertools-for-elementor.php:313
+msgid ""
+"Only small letters, numbers and dash allowed, begin with min 4 characters"
+msgstr ""
+"Seules les lettres minuscules, les chiffres et les tirets sont autorisés. "
+"Commencez par un minimum de 4 caractères"
+
+#: qanva-powertools-for-elementor.php:315
+msgid "Cancel"
+msgstr "Annuler"
+
+#: qanva-powertools-for-elementor.php:346
+msgid "Open in same window"
+msgstr "Ouvrir dans la même fenêtre"
+
+#: qanva-powertools-for-elementor.php:346
+msgid "Open in new window"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+#: qanva-powertools-for-elementor.php:346
+#: qanva-powertools-for-elementor.php:367
+msgid "Done"
+msgstr "Terminé"
+
+#: settings.php:137
+msgid "post"
+msgstr "article"
+
+#: settings.php:137 settings.php:142 settings.php:148
+msgid "Name"
+msgstr "Nom"
+
+#: settings.php:142
+msgid "page"
+msgstr "page"
+
+#: settings.php:148
+msgid "templates"
+msgstr "modèles"
+
+#: settings.php:160
+msgid "Comments"
+msgstr "Commentaires"
+
+#: settings.php:214
+msgid "Page cloning and special settings for Elementor"
+msgstr "Clonage de pages et paramètres spéciaux pour Elementor"
+
+#: settings.php:219
+msgid "Remove Google-Fonts from frontend"
+msgstr "Suppression des polices de caractères Google-Fonts du frontend"
+
+#: settings.php:227
+msgid "Remove Fontawsome from frontend"
+msgstr "Supprimer Fontawsome du frontend"
+
+#: settings.php:240
+msgid "In case loaded favorites let Elementor crash, you can delete them here"
+msgstr ""
+"Au cas où les favoris chargés font planter Elementor, vous pouvez les "
+"supprimer ici"
+
+#: settings.php:242
+msgid "Reset Favorite Widgets"
+msgstr "Réinitialiser les widgets favoris"
+
+#. Plugin URI of the plugin/theme
+msgid "https://qanva.tech/qanva-powertools-for-elementor"
+msgstr "https://qanva.tech/qanva-powertools-for-elementor"
+
+#. Author of the plugin/theme
+msgid "ukischkel, fab22"
+msgstr "ukischkel, fab22"
+
+#. Author URI of the plugin/theme
+msgid "https://qanva.tech"
+msgstr "https://qanva.tech"
+
+#~ msgid "With this widget to add extra menu buttons and a select to Elementor"
+#~ msgstr ""
+#~ "Ce widget permet d'ajouter des boutons de menu supplémentaires et une "
+#~ "sélection à Elementor"
+
+#~ msgid "Select a target or enter a individual link"
+#~ msgstr "Sélectionnez une cible ou saisissez un lien individuel"
+
+#~ msgid "Please choose a target"
+#~ msgstr "Veuillez choisir une cible"
+
+#~ msgid "Individual link"
+#~ msgstr "Lien individuel"
+
+#~ msgid "Give your link a name"
+#~ msgstr "Donnez un nom à votre lien"
+
+#~ msgid "Linkname"
+#~ msgstr "Nom de famille"
+
+#~ msgid "Same window"
+#~ msgstr "Même fenêtre"
+
+#~ msgid "or new one"
+#~ msgstr "ou un nouveau"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"

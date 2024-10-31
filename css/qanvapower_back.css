@@ -1,0 +1,134 @@
+.elementor-control-qanva_poweruser::after{
+content: "";
+position: absolute;
+height: 20px;
+width: 20px;
+top: 10px;
+right: 20px;
+background-image: url("../img/qanva.svg");
+background-position: center center;
+background-size: cover;
+z-index: 1;
+}
+.qebheader{margin:25px 0 15px 0}
+.qanvaselect input{margin:10px 0 0 0;background:#0085ba;color: white;font-weight: bold;border-radius: 0;letter-spacing: 1px;cursor:pointer}
+#qanvaeeboverlay{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.7);
+	position:absolute;
+	z-index:9999999;
+	display:none;
+}
+.qanvaeebinfo{
+	width: 300px;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	margin: calc(21% - 100px) auto 0 auto;
+	color: #6d7882;
+	position:relative;
+	z-index:99999999;
+}
+.qanvaeebinfo select:focus, .qanvaeebinfo input:focus{
+	border-color:black !important;
+}
+.qanvaeebinfo input[type="text"],.qanvaeebinfo input[type="button"]:not(.qanvaquicknew):not(.qanvaquicksame){
+	margin:5px 0;
+	border-radius:0;
+	background:white;
+	color:dimgrey;
+}
+.qanvaeebinfo input[name="openmyclone"], #elclone,.qanvaeebinfo .qanvaquicknew,.qanvaeebinfo .qanvaquicksame{
+	margin:5px 0;
+background: #0085ba;
+color: white;
+font-weight: bold;
+border-radius: 0;
+letter-spacing: 1px;
+cursor: pointer;
+}
+.qanvaeebinfo .qanvaquicknew{
+	width: calc(50% - 2px);
+float: inline-start;
+margin:0 2px 5px 0;
+}
+.qanvaeebinfo .qanvaquicksame{
+	width: calc(50% - 2px);
+float: inline-start;
+	margin:0 0 5px 2px;
+}
+.qanvaeebinfo input[type="button"]:not(.qanvaquicknew):not(.qanvaquicksame){
+cursor:pointer;
+background:lightgrey;
+color:dimgrey;
+}
+#qanvaeebwrapper{
+	display:flex;
+	flex-direction:row;
+}
+#qanvanewpname{
+	width:70%;
+	margin-right:5px
+}
+#qanvasaveperma{
+background: #39b54a;
+color: white;
+font-weight: bold;
+border-radius: 0;
+letter-spacing: 1px;
+cursor: pointer;
+padding:5px;
+border:0;
+width:30%
+}
+#qanvagetfavorites{
+background: #39b54a;
+color: white;
+font-weight: bold;
+border-radius: 0;
+letter-spacing: 1px;
+cursor: pointer;
+padding:5px;
+border:0;
+margin-top: 10px;
+width: 45%;
+float:left;
+margin-right:10%
+}
+#qanvasavefav{
+background: #0085ba;
+color: white;
+font-weight: bold;
+border-radius: 0;
+letter-spacing: 1px;
+cursor: pointer;
+padding:5px;
+border:0;
+margin-top: 10px;
+width: 45%;
+}
+#qanvapwinfo{
+	display:none;
+	position: absolute;
+color: red;
+top: 20px;
+left: 30%;
+}
+.elementor-panel .elementor-panel-category-items .elementor-element-wrapper.qanva-pte-hide{
+	display:none;
+}
+.elementor-panel #elementor-panel-category-favorites .elementor-panel-category-items .elementor-element-wrapper.qanva-pte-hide{
+	display:block;
+}
+#qptistsaved{
+	display:none;
+	padding:6px 5px;
+	background:white;
+	color:red;
+	border: 1px solid black;
+position: absolute;
+right: 20px;
+min-width: 83px;
+text-align: center;
+}

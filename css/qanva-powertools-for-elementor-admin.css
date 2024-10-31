@@ -1,0 +1,117 @@
+.qanva-powertools-for-elementor-link{
+float:left;
+padding-right: 3px;
+}
+.qanva-powertools-for-elementor-link a{
+color:#39b54a;
+font-weight:bold;
+float:left;
+padding-right: 3px;
+}
+.qanva-powertools-for-elementor-link a:hover{
+color:#39b54a;
+text-shadow:0 0 5px #FFF, 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #49ff18, 0 0 20px #49FF18, 0 0 25px #49FF18, 0 0 30px #49FF18, 0 0 35px #49ff18;
+}
+.qanva-powertools-for-elementor-link a:active, .qanva-powertools-for-elementor-link a:focus{
+color:#39b54a;
+outline:none;
+box-shadow:none;
+}
+/* ### settings page ### */
+.qanvaexample p, .qanvaeffect:not(h1):not(h2):not(h3):not(h4){
+	font-size:16px;
+}
+#wpfooter{
+	width:0;
+	height:0;
+	display:none;
+}
+#wpbody-content {
+    padding-bottom:0;
+}
+.switchbox{
+	text-align:center;
+}
+input[type=checkbox].uk-switch {
+display:none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 62px;
+  height: 28px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 28px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #1e87f0;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 12px;
+}
+.small{
+	font-size:12px;
+}
+.red{
+	color:red;
+}
+select[name=pagetarget]{
+	appearance: none;-webkit-appearance: none;-moz-appearance: none;cursor: pointer;height:40px;background:white url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") no-repeat 97%;
+	max-width:100%
+}
+.qanva label:before{
+	content:"<?php _e( "yes", "qanva-powertools-for-elementor" ); ?>";
+	position: absolute;
+left: 7px;
+z-index: 9;
+top: 3px;
+color:white
+}
+.qanva label:after{
+	content:"<?php _e( "no", "qanva-powertools-for-elementor" ); ?>";
+	position: absolute;
+left: 32px;
+z-index: 9;
+top: 3px;
+}
+.slider::before{
+	z-index:10
+}
